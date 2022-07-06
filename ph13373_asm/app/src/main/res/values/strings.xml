@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">ph13373</string>
+    <string name="ten_thu_vien">Thư viện Phương Nam</string>
+    <string name="ten_dang_nhap">Tên đăng nhập</string>
+    <string name="mat_khau">Mật khẩu</string>
+    <string name="mat_khau_new1">Mật khẩu mới</string>
+    <string name="mat_khau_new2">Nhập lại mật khẩu mới</string>
+    <string name="luu_mk">Lưu mật khẩu</string>
+    <string name="doi_mk">Đổi mật khẩu</string>
+    <string name="dang_nhap">Đăng nhập</string>
+    <string name="dang_xuat">Đăng xuất</string>
+    <string name="dang_xuatk">Bạn có muốn đăng xuất?</string>
+    <string name="luu">Lưu</string>
+    <string name="huy">Hủy</string>
+    <string name="dongy">Đồng ý</string>
+    <string name="xoa">Bạn có muốn xóa ?</string>
+    <string name="edit">Bạn có muốn thay đổi?</string>
+    <string name="loaisach">Quản lý loại sách</string>
+    <string name="sach">Quản lý sách</string>
+    <string name="qlsach">Book Manager</string>
+    <string name="addloaisach">Thêm mới loại sách</string>
+    <string name="nhaptenlaoisach">Nhập tên loại sách</string>
+    <string name="addthanhvien">Thêm mới thủ thư</string>
+    <string name="addkh">Thêm mới khách hàng</string>
+    <string name="addbook">Thêm mới sách</string>
+    <string name="username">Username</string>
+    <string name="pass">Password</string>
+    <string name="hvl">Họ và tên</string>
+    <string name="sdt">Số điện thoại</string>
+    <string name="tens">Tên sách</string>
+    <string name="tien">Giá tiền thuê</string>
+    <string name="addphieu">Thêm mới phiếu mượn</string>
+    <string name="editphieu">Chỉnh sửa phiếu mượn</string>
+    <string name="datra">Đã trả sách</string>
+    <string name="kh">Khách hàng : </string>
+    <string name="top10sach">Top sách thuê nhiều</string>
+    <string name="doanhthu">Doanh thu</string>
+    <string name="ngaybd">Ngày bắt đầu</string>
+    <string name="ngaykt">Ngày kết thúc</string>
+    <string name="tinhdt">Tính doanh thu</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.Fragment_doiMK">
+
+    <TextView
+        android:id="@+id/tv_change_doimk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/doi_mk"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="100dp"/>
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tipl_change_mk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/mat_khau"
+        android:layout_below="@+id/tv_change_doimk"
+        android:layout_marginHorizontal="32dp">
+
+        <EditText
+            android:inputType="textPassword"
+            android:id="@+id/txt_change_mk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tipl_change_mk_new1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/mat_khau_new1"
+        android:layout_below="@+id/tipl_change_mk"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="32dp">
+
+        <EditText
+            android:inputType="textPassword"
+            android:id="@+id/txt_change_mk_new1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tipl_change_mk_new2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/mat_khau_new2"
+        android:layout_below="@+id/tipl_change_mk_new1"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="32dp">
+
+        <EditText
+            android:inputType="textPassword"
+            android:id="@+id/txt_change_mk_new2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_marginHorizontal="32dp"
+        android:layout_below="@+id/tipl_change_mk_new2"
+        android:layout_marginTop="20dp">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:id="@+id/btn_change_ok"
+            android:text="@string/luu"
+            android:layout_marginHorizontal="5dp"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/btn_change_huy"
+            android:text="@string/huy"
+            android:layout_marginHorizontal="5dp"
+            />
+
+
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="32dp"
+        android:text="@string/dang_xuat"
+        android:id="@+id/btn_change_dangxuat"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"/>
+
+</RelativeLayout>

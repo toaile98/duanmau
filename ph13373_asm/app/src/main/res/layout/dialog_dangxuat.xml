@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dang_xuatk"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tv_dialog_dangxuat"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="100dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_marginHorizontal="32dp"
+        android:layout_below="@+id/tv_dialog_dangxuat"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="100dp">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/dongy"
+            android:id="@+id/btn_dialog_dangxuat_ok"
+            android:layout_marginHorizontal="5dp"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/huy"
+            android:id="@+id/btn_dialog_dangxuat_huy"
+            android:layout_marginHorizontal="5dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
